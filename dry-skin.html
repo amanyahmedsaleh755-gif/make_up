@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dry skin routine</title>
+    <style>
+        :root {
+            --soft-pink: #fce4ec;
+            --deep-pink: #f06292;
+            --beige-bg: #fff5e6;
+            --gold: #d4af37;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--beige-bg);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #444;
+        }
+
+        header {
+            background-color: white;
+            padding: 30px;
+            border-bottom: 3px solid var(--gold);
+        }
+
+        header h1 { color: var(--deep-pink); }
+
+        .back-btn {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 25px;
+            background-color: var(--deep-pink);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover { background-color: var(--gold); }
+
+        .content-section {
+            background: white;
+            margin: 20px auto;
+            padding: 30px;
+            width: 85%;
+            border-radius: 25px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+            gap: 25px;
+            padding: 20px;
+            justify-items: center;
+        }
+
+        .product-item {
+            text-decoration: none;
+            color: inherit;
+            transition: 0.4s;
+            max-width: 220px;
+        }
+
+        .product-item:hover { transform: translateY(-10px); }
+
+        .product-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 2px solid var(--soft-pink);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .product-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .product-desc {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 10px;
+            padding: 0 5px;
+            line-height: 1.4;
+        }
+
+        footer {
+            background: linear-gradient(45deg, #f06292, #fce4ec, #f06292);
+            background-size: 200% 200%;
+            animation: moveGradient 4s ease infinite;
+            color: white;
+            padding: 30px;
+            border-top: 3px solid var(--gold);
+            font-weight: bold;
+            margin-top: 50px;
+        }
+
+        @keyframes moveGradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dry Skin Section</h1>
+        <h2>Deep Hydration for a Radiant Glow</h2>
+    </header>
+
+    <a href="skin.html" class="back-btn">← Go Back</a>
+
+    <div class="content-section">
+        <h2 style="color: var(--gold);">Recommended Products For You</h2>
+        
+        <div class="products-grid">
+            
+            <a href="#" class="product-item">
+                <div class="product-img">
+                    <img src="dry-cleanser.jpg" alt="غسول كريمي">
+                </div>
+                <p>اليجون.. التنظيف الفاخر لبشرتك الجافة:
+يحتوي على حمض الهيالورونيك (Hyaluronic Acid): الذي يعمل على سحب الرطوبة لداخل خلايا الجلد أثناء الغسيل، عشان يضمن إن بشرتك تفضل مرطبة وناعمة مش "مشدودة".
+يحتوي على فيتامين E: وهو مضاد أكسدة قوي جداً يعمل على تغذية البشرة وحمايتها من العوامل الخارجية، وبيساعد في تقليل القشور اللي بتظهر في البشرة الجافة.
+يحتوي على البانثينول (Panthenol): الذي يعمل كمرمم سريع لحاجز البشرة، وبيهدي أي احمرار أو تهيج ناتج عن الجفاف الشديد.</p>
+                
+            </a>
+
+            <a href="#" class="product-item">
+                <div class="product-img">
+                    <img src="moist-1.jpg" alt="مرطب غني">
+                </div>
+                <p>يحتوي على الفيتوسترولس، الأوميجا 3 و6 (من زيت بذور الكتان)، الجلسرين، البانثينول، ومستخلص الكاموميل المهدئ.الفوائد:إعادة بناء وترميم حاجز الدهون الطبيعي بالبشرة.تقليل الالتهابات، الاحمرار، والحكة الناتجة عن الجفاف.ملمس كريمي ناعم سريع الامتصاص ولا يترك طبقة دهنية مزعجة.</p>
+                
+            </a>
+<a href="#" class="product-item">
+                <div class="product-img">
+                    <img src="dry-sunblock.jpg" alt="صن بلوك">
+                </div>
+                <p>واقي شمس بوباي (Bobai Cream) - حماية وترطيب في آن واحد:
+يحتوي على فلاتر حماية SPF 50+: التي تعمل على توفير درع واقي ضد أشعة الشمس فوق البنفسجية لمنع الحروق والتصبغات.
+يحتوي على فيتامين E: الذي يعمل على تغذية طبقات الجلد العميقة ومنع ظهور علامات الشيخوخة المبكرة.
+يحتوي على تركيبة مرطبة: تعمل على منع فقدان السوائل من البشرة أثناء التعرض للحرارة، مما يحافظ على ملمسها ناعماً طوال اليوم.</p>
+                
+            </a>
+</a>
+<a href="#" class="product-item">
+                <div class="product-img">
+                    <img src="hyaluronic.jpg" alt="هيالورونيك أسيد">
+                </div>
+                <p>يحتوي على حمض الهيالورونيك (Hyaluronic Acid): الذي يعمل كـ "مغناطيس للماء"، حيث يقوم بجذب الرطوبة وحبسها داخل طبقات الجلد، مما يقلل من ظهور الخطوط الرفيعة الناتجة عن الجفاف.
+يحتوي على فيتامين B5 (Panthenol): الذي يعمل على تهدئة البشرة الجافة وترميم حاجزها الطبيعي، مما يجعل ملمسها أنعم وأكثر مرونة.
+يحتوي على خلاصة الكولاجين: التي تعمل على تعزيز مرونة الجلد وإعطائه مظهراً ممتلئاً (Plumping Effect) وإشراقة صحية تدوم طويلاً.</p>
+                
+            </a>
+<a href="#" class="product-item">
+                <div class="product-img">
+                    <img src="dry-vitamin-c.jpg" alt="فيتامين سي">
+                </div>
+                <p>سيروم ستارفيل.. إشراقة ونضارة لا تقاوم:
+يحتوي على فيتامين سي بتركيز 10%: الذي يعمل كمضاد أكسدة قوي لتفتيح البقع الداكنة، توحيد لون البشرة، وتحفيز إنتاج الكولاجين الطبيعي.
+يحتوي على فيتامين E: الذي يعمل على تغذية البشرة الجافة بعمق وحمايتها من التأكسد والبهتان.
+يحتوي على حمض الهيالورونيك: الذي يعمل على حبس الترطيب داخل الجلد، مما يضمن لكِ نضارة وإشراقاً بدون أي جفاف.</p>
+                
+            </a>
+
+
+            </div>
+    </div>
+
+    <footer>
+       Where beauty finds its room
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oily Skin Routine</title>
+    <style>
+        :root {
+            --soft-pink: #fce4ec;
+            --deep-pink: #f06292;
+            --beige-bg: #fff5e6;
+            --gold: #d4af37;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--beige-bg);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #444;
+        }
+
+        header {
+            background-color: white;
+            padding: 30px;
+            border-bottom: 3px solid var(--gold);
+        }
+
+        header h1 { color: var(--deep-pink); }
+
+        .back-btn {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 25px;
+            background-color: var(--deep-pink);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover { background-color: var(--gold); }
+
+        .content-section {
+            background: white;
+            margin: 20px auto;
+            padding: 30px;
+            width: 85%;
+            border-radius: 25px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+
+        /* --- تنسيق شبكة الصور (المهم) --- */
+        .products-grid {
+            display: grid;
+            /* بيخلي الصور تترص جمب بعض تلقائياً */
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); 
+            gap: 25px;
+            padding: 20px;
+            justify-items: center;
+        }
+
+        .product-item {
+            text-decoration: none;
+            color: inherit;
+            transition: 0.4s;
+        }
+
+        .product-item:hover { transform: translateY(-10px); }
+
+        .product-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 2px solid var(--soft-pink);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .product-img:hover { border-color: var(--gold); }
+
+        .product-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* --- الفوتر البينك اللامع --- */
+        footer {
+            background: linear-gradient(45deg, #f06292, #fce4ec, #f06292);
+            background-size: 200% 200%;
+            animation: moveGradient 4s ease infinite;
+            color: white;
+            padding: 30px;
+            border-top: 3px solid var(--gold);
+            font-weight: bold;
+            margin-top: 50px;
+        }
+
+        @keyframes moveGradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Oily Skin Section</h1>
+        <h2>Stay Matte , Stay Fresh</h2>
+    </header>
+
+    <a href="skin.html" class="back-btn">← Go Back</a>
+
+    <div class="content-section">
+        <h2 style="color: var(--gold);">Recommended Products For Youِ</h2>
+        
+        
+        <div class="products-grid">
+            
+            <a href="#" class="product-item">
+                <div class="product-img">
+                    <img src="cleanser.jpg" alt="غسول">
+                </div>
+                <p>يحتوي على الساليسيليك أسيد (Salicylic Acid): الذي يعمل على التغلغل داخل المسام لإذابة الدهون الزائدة ومنع تكون الرؤوس السوداء والحبوب.
+يحتوي على زيت شجرة الشاي (Tea Tree Oil): الذي يعمل كمضاد طبيعي للبكتيريا والالتهابات، مما يساعد في تهدئة البشرة وعلاج الحبوب النشطة.
+يحتوي على خلاصة الصبار (Aloe Vera): التي تعمل على ترطيب البشرة ومنع جفافها أثناء عملية التنظيف العميق، لترك بشرتك ناعمة ومرنة</p>
+            </a>
+            <a href="#" class="product-item">
+                <div class="product-img">
+                    <img src="mostrising.jpg" alt="مرطب">
+                </div>
+                <p>يحتوي على النياسيناميد (Niacinamide): الذي يعمل على توحيد لون البشرة، علاج آثار الحبوب، وتصغير شكل المسام الواسعة.
+يحتوي على البانثينول (Panthenol): الذي يعمل على ترطيب البشرة بعمق وتهدئة أي احمرار أو تهيج، وبيساعد في ترميم حاجز البشرة المتضرر.
+يحتوي على خلاصة السيراميد: التي تعمل على حبس الرطوبة داخل الجلد ومنع جفافه، مما يعطي بشرتك ملمس صحي وناعم</p>
+            </a>
+
+<a href="#" class="product-item">
+                <div class="product-img">
+                    <img src="serum.jpg" alt="منتج 4">
+                </div>
+                <p>يحتوي على الألفا أربوتين (Alpha Arbutin): المادة الأقوى والأكثر أماناً لتفتيح بقع البشرة، وعلاج التصبغات وآثار الحبوب "البنية والحمراء" اللي بتسيب أثر بعد الحبوب.
+يحتوي على خلاصة العرقسوس: التي تعمل كمفتح طبيعي للبشرة، وبتساعد جداً في إعطاء نضارة فورية وتوحيد لون البشرة الباهتة.
+يحتوي على حمض الهيالورونيك: عشان يضمن لك ترطيب عالي للبشرة وهي بتتفتح، فتفضل ناعمة ومنورة طول اليوم.</p>
+            </a>
+<a href="#" class="product-item">
+                <div class="product-img">
+                    <img src="toner.jpg" alt="toner">
+                </div>
+                <p>يحتوي على الألفا هيدروكسي أسيد (AHA): التي تعمل على تقشير سطح البشرة بلطف، مما يساعد في التخلص من الحبوب الصغيرة وتجديد خلايا الجلد.
+يحتوي على مادة الـ Witch Hazel (فيتش هازل): وهي مادة طبيعية تعمل على قبض المسام الواسعة وتقليل إفراز الدهون الزائدة بشكل ملحوظ.
+يحتوي على فيتامين B3: الذي يعمل على تهدئة الاحمرار وتوحيد لون البشرة بعد التنظيف.</p>
+            </a>
+
+            <a href="#" class="product-item">
+                <div class="product-img">
+                    <img src="vitamin-c.jpg" alt="فيتامين سي">
+                </div>
+                <p>يحتوي على فيتامين سي (Stable Vitamin C): الذي يعمل كمضاد أكسدة قوي، يحمي بشرتك من أضرار الشمس والتلوث، ويعالج بهتان البشرة فوراً.
+استخدميه قبل واقي الشمس ليعمل علي زيادة فعاليته وحماية البشره من الأكسده</p>
+            </a>
+
+            <a href="#" class="product-item">
+                <div class="product-img">
+                    <img src="sunblock.jpg" alt="منتج 6">
+                </div>
+                <p>ميلاتيم.. حماية قصوى ومظهر حريري:
+يحتوي على فلاتر حماية SPF 50+: التي تعمل على توفير حماية كاملة ضد أشعة الشمس الضارة (UVA/UVB)، مما يمنع ظهور التصبغات والنمش وآثار الحبوب.
+يحتوي على تقنية الـ Primer Base: التي تعمل على تنعيم ملمس الجلد وسد المسام الواسعة بشكل مؤقت، مما يجعله قاعدة مثالية قبل المكياج أو لإعطاء الوش مظهر "صافي" بدون لمعان.
+يحتوي على فيتامين E ومضادات أكسدة: تعمل على تغذية البشرة وحمايتها من التأكسد (عشان الوش ميسودش من الشمس طول اليوم).</p>
+            </a>
+
+        </div>
+    </div>
+
+    <footer>
+        
+    </footer>
+
+</body>
+</html>
